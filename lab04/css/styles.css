@@ -1,8 +1,19 @@
+* {
+  box-sizing: border-box;
+}
 
 body {
   background-color: #f1f1f1;
   padding: 10%;
   font-family: Arial;
+}
+
+.left-float {
+  float: left;
+}
+
+.right-float {
+  float: right;
 }
 
 .header {
@@ -24,20 +35,16 @@ body {
   color: #f2f2f2;
   padding: 14px 16px;
   display: block;
-  float: left;
   text-decoration: none;
 }
 
 .left-column {
   width: 70%;
-  float: left;
 }
 
 .right-column {
   width: 30%;
   padding: 0 0 0 10px;
-  box-sizing: border-box;
-  float: left;
 }
 
 .footer {
@@ -46,19 +53,20 @@ body {
   padding: 5px 0 0;
 }
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .right-column {
     width: 100%;
+    padding: 0;
   }
 
   .left-column {
     width: 100%;
-    padding: 0;
   }
 }
 
-@media (max-width: 300px) {
+@media only screen and (max-width: 300px) {
   .nav-bar a {
     float: none;
+    text-align: center;
   }
 }
