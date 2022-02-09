@@ -16,3 +16,15 @@ div ul {
   list-style-type: None;
   line-height: 200%;
 }
+
+div ul li {
+  margin: 0 auto 1%;
+}
+
+div ul li a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #C0D8C0;
+}
