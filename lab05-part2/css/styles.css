@@ -41,6 +41,10 @@ footer {
   padding: 14px 16px;
 }
 
+.nav-bar a:hover{
+  color: #ECB390;
+}
+
 .main-section {
   margin: 2% auto 0;
 }
