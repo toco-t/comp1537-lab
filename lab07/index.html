@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Lab 07</title>
+
+  <!-- css -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- custom font -->
+  <link href="http://fonts.cdnfonts.com/css/ds-digital" rel="stylesheet">
+</head>
+
+<body>
+  <div class="frame">
+    <h1>Calculator</h1>
+    <p>First Operand: <spa><input type="text" class="first-operand"></spa></p>
+    <p>Second Operand: <spa><input type="text" class="second-operand"></spa></p>
+
+    <button type="submit" data-val="+">+</button>
+    <button type="submit" data-val="-">-</button>
+    <button type="submit" data-val="*">*</button>
+    <button type="submit" data-val="/">/</button>
+    <button type="submit" data-val="^">^</button>
+    <button type="submit" data-val="%">%</button>
+
+    <div class="font-sizing">
+      <button type="submit" data-val="font+">Font +</button>
+      <button type="submit" data-val="font-">Font -</button>
+    </div>
+
+    <div class="result"></div>
+
+    <div class="history">
+      <h2>History</h2>
+    </div>
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </div>
+</body>
+
+</html>

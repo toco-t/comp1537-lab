@@ -1,0 +1,66 @@
+.red {
+  background-color: #C37B89;
+  color: #000;
+}
+
+.blue {
+  background-color: #D1E8E4;
+  color: #000;
+}
+
+.green {
+  background-color: #BCCC9A;
+  color: #000;
+}
+
+.yellow {
+  background-color: #F3F0D7;
+  color: #000;
+}
+
+.purple {
+  background-color: #DCD6F7;
+  color: #000;
+}
+
+.gold {
+  background-color: #FFE867;
+  color: #000;
+}
+
+button {
+  font-family: 'DS-Digital', sans-serif;
+  font-size: 1.5em;
+  margin: 2% 3% 5%;
+  padding: 1% 2%;
+}
+
+h1 {
+  background-color: #C8C6A7;
+  display: inline-block;
+  padding: 3% 5%;
+  width: 50%;
+}
+
+input {
+  font-family: 'DS-Digital', sans-serif;
+  font-size: 1.5em;
+}
+
+.frame {
+  font-family: 'DS-Digital', sans-serif;
+  background-color: #435560;
+  color: #fff;
+  text-align: center;
+  width: 50%;
+}
+
+.history {
+  width: 50%;
+  margin: auto;
+  padding: 2% 0 5%;
+}
+
+.history div {
+  width: 100%;
+}
