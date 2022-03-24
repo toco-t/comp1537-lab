@@ -1,0 +1,17 @@
+.left-column {
+  float: left;
+  width: 50%;
+}
+
+.right-column {
+  float: left;
+  width: 50%;
+}
+
+.left-column img {
+  width: 50%;
+}
+
+.button-bar div {
+  display: inline;
+}
