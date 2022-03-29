@@ -25,6 +25,7 @@ $("#page_size").change(function() {
   page_size = $("#page_size").val();
 
   paginate_menu();
+  films(results_array);
 })
 
 $("body").on("click", ".page-button", function() {
