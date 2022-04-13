@@ -64,7 +64,11 @@ app.post("/food", function(req, res){
   if (carrot == "checked")
     favourites.push("carrot")
 
-  condition = {loves: {$in: favourites}}
+  if (favourites.length == 2) {
+    condition = {$and: [{loves: "apple"},{loves: "carrot"}]}
+  } else {
+    condition = {loves: {$in: favourites}}
+  }
 
   Unicorn.find(condition, function(err, unicorns){
     results = unicorns;
